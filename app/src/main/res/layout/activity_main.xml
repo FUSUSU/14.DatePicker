@@ -17,7 +17,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
         android:text="@string/textView1" />
 
     <Button
@@ -35,8 +36,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
         android:layout_below="@+id/textView1"
          />
 </RelativeLayout>
